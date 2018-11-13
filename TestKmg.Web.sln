@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestKmg.Web", "TestKmg.Web\TestKmg.Web.csproj", "{2B2911F2-AEA0-4500-A8D4-6445BD68FC07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestKmg.Common", "KmgTest.Common\TestKmg.Common.csproj", "{C585BC57-1B59-4DC8-ACFB-72DE55C1FDC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B2911F2-AEA0-4500-A8D4-6445BD68FC07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B2911F2-AEA0-4500-A8D4-6445BD68FC07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B2911F2-AEA0-4500-A8D4-6445BD68FC07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B2911F2-AEA0-4500-A8D4-6445BD68FC07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C585BC57-1B59-4DC8-ACFB-72DE55C1FDC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C585BC57-1B59-4DC8-ACFB-72DE55C1FDC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C585BC57-1B59-4DC8-ACFB-72DE55C1FDC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C585BC57-1B59-4DC8-ACFB-72DE55C1FDC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F7D9ADD-2374-4AEF-A72D-A5681C20CF05}
+	EndGlobalSection
+EndGlobal

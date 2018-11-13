@@ -1,0 +1,53 @@
+﻿@using TestKmg.Common.ViewModels.Product
+@model ProductListViewModel
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<h3>Товары:</h3>
+<a href="/Product/AddProduct">Добавить</a>
+
+<form action="/Product/ProductList" method="get">
+    <div style="background: gray; padding: 10px;">
+        <div class="form-group">
+            <label>Категория</label>
+            <select name="GroupId" id="groupId" class="form-control" onchange="window.location.href='/Product/ProductList?groupId='+$('#groupId').val()"
+                    asp-for="GroupId"
+                    asp-items="@(new SelectList(Model.Groups,"Id","NameRus"))">
+                <option value="">Выберите категорию</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label>Дополнительные поля</label>
+            @if (Model.Fields != null)
+            {
+                @foreach (var field in Model.Fields)
+                {
+                    <label>@field.Name</label>
+                    <input type="text" class="form-control" name="Fields[@field.Id]" />
+                }
+            }
+        </div>
+
+        <input type="submit" class="btn btn-primary" value="Поиск" />
+    </div>
+</form>
+
+<div>
+    <table class="table table-bordered">
+        @if (Model.Products != null)
+        {
+            @foreach (var product in Model.Products)
+            {
+                <tr>
+                    <td>@product.NameRus</td>
+                    <td>@product.DescriptionRus</td>
+                    <td>@product.Price</td>
+                </tr>
+            }
+        }
+    </table>
+
+</div>

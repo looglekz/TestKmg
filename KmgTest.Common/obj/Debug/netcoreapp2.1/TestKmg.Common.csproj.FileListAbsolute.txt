@@ -1,0 +1,16 @@
+C:\Users\Azamat\source\repos\TestKmg\TestKmg.Web\KmgTest.Common\bin\Debug\netcoreapp2.1\TestKmg.Common.deps.json
+C:\Users\Azamat\source\repos\TestKmg\TestKmg.Web\KmgTest.Common\bin\Debug\netcoreapp2.1\TestKmg.Common.runtimeconfig.json
+C:\Users\Azamat\source\repos\TestKmg\TestKmg.Web\KmgTest.Common\bin\Debug\netcoreapp2.1\TestKmg.Common.runtimeconfig.dev.json
+C:\Users\Azamat\source\repos\TestKmg\TestKmg.Web\KmgTest.Common\bin\Debug\netcoreapp2.1\TestKmg.Common.dll
+C:\Users\Azamat\source\repos\TestKmg\TestKmg.Web\KmgTest.Common\bin\Debug\netcoreapp2.1\TestKmg.Common.pdb
+C:\Users\Azamat\source\repos\TestKmg\TestKmg.Web\KmgTest.Common\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Azamat\source\repos\TestKmg\TestKmg.Web\KmgTest.Common\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Azamat\source\repos\TestKmg\TestKmg.Web\KmgTest.Common\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.xml
+C:\Users\Azamat\source\repos\TestKmg\TestKmg.Web\KmgTest.Common\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Identity.Stores.xml
+C:\Users\Azamat\source\repos\TestKmg\TestKmg.Web\KmgTest.Common\obj\Debug\netcoreapp2.1\TestKmg.Common.csproj.CoreCompileInputs.cache
+C:\Users\Azamat\source\repos\TestKmg\TestKmg.Web\KmgTest.Common\obj\Debug\netcoreapp2.1\TestKmg.Common.AssemblyInfoInputs.cache
+C:\Users\Azamat\source\repos\TestKmg\TestKmg.Web\KmgTest.Common\obj\Debug\netcoreapp2.1\TestKmg.Common.AssemblyInfo.cs
+C:\Users\Azamat\source\repos\TestKmg\TestKmg.Web\KmgTest.Common\obj\Debug\netcoreapp2.1\TestKmg.Common.csproj.CopyComplete
+C:\Users\Azamat\source\repos\TestKmg\TestKmg.Web\KmgTest.Common\obj\Debug\netcoreapp2.1\TestKmg.Common.dll
+C:\Users\Azamat\source\repos\TestKmg\TestKmg.Web\KmgTest.Common\obj\Debug\netcoreapp2.1\TestKmg.Common.pdb
+C:\Users\Azamat\source\repos\TestKmg\TestKmg.Web\KmgTest.Common\obj\Debug\netcoreapp2.1\TestKmg.Common.csprojAssemblyReference.cache

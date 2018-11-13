@@ -1,0 +1,22 @@
+﻿@using TestKmg.Common.ViewModels.Group
+@model List<GroupViewModel> 
+@{
+    ViewData["Title"] = "GroupList";
+}
+<h3>Категории:</h3>
+<a href="/Product/AddGroup">Добавить</a>
+<table class="table table-bordered">
+    <tr>
+        <td>Наименование на русском</td>
+        <td>
+            Наименование на казахском
+        </td>
+    </tr>
+    @foreach (var group in Model)
+    {
+    <tr>
+        <td>@group.NameRus</td>
+        <td>@group.NameKaz</td>
+    </tr>
+    }
+    </table>
